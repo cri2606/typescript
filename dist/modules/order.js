@@ -5,3 +5,4 @@ const createOrder = (id, totale, imponibile, iva, prodotti) => ({
     id, totale, imponibile, iva, prodotti
 });
 exports.createOrder = createOrder;
+//# sourceMappingURL=order.js.map

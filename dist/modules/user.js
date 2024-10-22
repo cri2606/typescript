@@ -5,3 +5,4 @@ const User = (username, password, status, permissions, orders) => ({
     username, password, status, permissions, orders: orders || []
 });
 exports.User = User;
+//# sourceMappingURL=user.js.map
