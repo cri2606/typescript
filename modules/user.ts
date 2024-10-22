@@ -8,9 +8,5 @@ export type UserType = {
     orders: OrderType[];
 }
 export const User = (username: string, password: string, status: number, permissions: string[], orders: OrderType[] = []): UserType => ({
-    username,
-    password,
-    status,
-    permissions,
-    orders
+    username, password, status, permissions, orders
 });

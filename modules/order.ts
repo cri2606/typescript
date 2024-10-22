@@ -7,9 +7,5 @@ export type OrderType = {
 }
 
 export const createOrder = (id: number, totale: number, imponibile: number, iva: number, prodotti: string[]): OrderType => ({
-    id,
-    totale,
-    imponibile,
-    iva,
-    prodotti
+    id, totale, imponibile, iva, prodotti
 });
